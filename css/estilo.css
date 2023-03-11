@@ -1,0 +1,184 @@
+
+body{
+    background-color: #137145;
+}
+
+header{
+    top: 0;
+    right: 0;
+    left: 0;
+    position: relative;
+    background-color: #17583a;
+    padding: 1.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-25{
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75{
+    width: 75%;
+    float: left;
+    margin-top: 6px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type=text], select, textarea, input[type=tel], input[type=email] {
+    width: 93%;
+    padding: 7px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #5e686e;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover{
+    background-color: #26292b;
+    font-weight: bolder;
+}
+
+.rowbotao{
+    margin-top: 3%;
+}
+
+.borda{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 45px;
+    border-radius: 25px;
+    margin-top: 1%;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+    padding: 1.5%;
+    background-color: #17583a;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.fixo{
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.navbar{
+    line-height: 1.0;
+    text-align: center;
+    position: absolute;
+    right: 3%;
+    top: 30%;
+    width: 70%;
+
+
+}
+
+
+.navbar a{
+    font-size: 1.2em;
+}
+
+.navbar a:link{
+    color: rgb(0, 27, 11);
+}
+
+.navbar a:visited{
+    color: rgb(9, 79, 69);
+}
+
+.navbar a:hover{
+    color: rgb(2, 39, 5);
+    padding: 0.8%;
+    background-color:  rgba(2, 54, 14, 0.5);
+    border-radius: 5%;
+}
+
+.navbar a:active{
+    color: rgb(1, 6, 4);
+}
+
+.container a:link{
+    color: rgb(27, 95, 53);
+}
+
+.container a:visited{
+    color: rgb(0, 0, 0);
+}
+
+.container a:hover{
+    color: rgb(11, 57, 23);
+}
+
+.container a:active{
+    color: rgb(7, 163, 70);
+}
+
+section{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+    
+.navbar ul li {
+    display: inline;
+    margin-left: 1%;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: left;
+    width: 50%;
+    font-size: 2em;
+}
+
+.logo{
+    text-align: left;
+    width: 90%;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Bree Serif', serif;
+    padding-top: 1%;
+}
+
+p{
+    font-size: 2rem;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.5;
+    font-family: 'Alegreya', serif;
+}
